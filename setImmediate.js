@@ -1,6 +1,6 @@
 (function (global, prefixes, timeouts, id, i) {
 
-if (typeof process !== 'undefined' && process && process.nextTick) {
+if (!global.setImmediate && typeof process !== 'undefined' && process && process.nextTick) {
 	global.setImmediate = function (callback, args) {
 		var i = id;
 
