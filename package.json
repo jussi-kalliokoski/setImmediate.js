@@ -1,7 +1,7 @@
 {
 	"name":		"set-immediate",
 	"author":	"Jussi Kalliokoski",
-	"version":	"0.1.0",
+	"version":	"0.1.1",
 	"description":	"A shim for the setImmediate API",
 	"repository":	{
 		"type":		"git",
