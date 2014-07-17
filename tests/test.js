@@ -10,7 +10,7 @@ function printResult () {
 
 var start = +new Date;
 
-setImmediate(function (s) {
+setImmediate(function () {
 	printResult('It worked and took', +new Date - s, 'milliseconds.');
 	s = true;
 }, [start]);
